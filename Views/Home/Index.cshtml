@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Autocomplete functionality</title>
+</head>
+
+
+    <div class="ui-widget">
+        <p>Type "a" or "s"</p>
+        <label for="automplete-1">Tags: </label>
+        <input id="txtname" class="form-control" onfocus="AutoComplete('txtname','employee')">
+    </div>
+@section Scripts{
+  <script src="~/js/autocomplete.js"></script>
+}
